@@ -1,0 +1,10 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 This is my project one redo. It implements the new version of the sparse interface. I again chose to model the ADT by using a linked list of objects (InMatrix objects have a row col and data integer value) and using the LinkedList class in java to assist with the calculations. I think this is the easiest and most efficient route since the element in the matrix has multiple attributes and they are easier to model with an object than with pointers. The this project makes the fixes to my original project, throwing error messages properly and not adding zeros to the matrix. This project does not have the determinant method from the previous project since it it was not included in the sparse interface. The new methods add and multiply add and multiply the matrices\'97using the mathematical formulas given in the description\'97if the parameters given are right and it will then return them to the toString method to be printed out. To string uses comparators to properly order the matrix when it is printed out. It prints out in the correct fashion row col data new line. If the product or sum of the elements in a matrix are equal to zero I did not store the item in the final SparseInterface object to store since it was made clear that 
+\i no zeros should be stored. 
+\i0 The runtimes of getElement, removeElement. AddElement, getRowNum, getColNum, set size are all O(1). toString is O(n). Add Matrices is O(n^2) and multiply matrices is O(n^3). In the submission zip fie I included a main method class, the InMatrix class, the SparseMatrix class, and the sparse interface. }
